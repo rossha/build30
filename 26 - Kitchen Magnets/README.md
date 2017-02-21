@@ -1,13 +1,10 @@
-Based on building poetry with refrigerator magnets.
+#### Click and Drag Kitchen Magnet Poetry
 
-Drag and drop words - If in the zone, put the word there. If not, return to original position.
-Send it out - posts to a twitter feed.
+##### Opportunities to build upon:
+- Add a line to write your poem on, tweet out the results
+- Have the kitchen magnets displayed at various angles
 
+##### TIL
+Importance of building something with what you've learned, rather than relying on the assumption that you fully understood the lesson. For example, when I set out to build this project, I thought I was basing it off lessons learned in the JS30 Click and Drag exercise. While the outcomes are similar: clicking and dragging to change the location of a DOM element, the actual mechanisms behind them are different. (Scrolling within an element that exceeds the bounds of the page vs. changing the location of a selected element.)
 
-TIL - demystifying the code
-Following along with tutorials, you think you understand what you're doing.
-But when you go to build what you assume is a similar project, you may realize that you were missing a big piece.
-In this case - "scroll" was referring to the inner scrolling of the element (which exceeded the bounds of the page), rather than moving the actual location of the child element you were holding.
-I decided I'd try to make with the magnet exercise
-Ended up being closer to the Stripe nav, dropdownCoords project and even canvas draw.
-In troubleshooting to figure out what was going on, learned a lot more about Javascript DOM element properties
+This project ended up resembling most closely JS30 lesson 26, where we programmatically changed the location of the dropdown to contain whichever tab was selected.
