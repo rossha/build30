@@ -13,7 +13,7 @@ body {
   overflow-x: hidden;
 }
 
-.social {
+.social, .clients {
   display: none;
 }
 
@@ -263,6 +263,16 @@ a.link {
     border-bottom: #1c2b32 2px solid;
   }
 
+  body.expanded div.clients {
+    display: flex;
+    flex-basis: 94%;
+    font-size: 25px;
+    font-weight: bold;
+    justify-content: center;
+    border-top: #1c2b32 2px solid;
+    padding: 20px 0px 75px;
+  }
+
   /* Expanded Content Handlers End */
 
   .mobile-button {
@@ -273,6 +283,7 @@ a.link {
     display: flex;
     flex-basis: 65%;
     color: #5a7085;
+    padding: 10px 2% 20px;
     border-bottom: #1c2b32 2px solid;
   }
 
@@ -344,6 +355,15 @@ a.link {
     background-color: transparent;
     color: black;
     font-weight: normal;
+  }
+
+  .clients__title {
+    margin-right: 20px;
+    align-self: center;
+  }
+
+  .clients__logos img {
+    margin: 10px;
   }
 }
 
