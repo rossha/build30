@@ -1,7 +1,8 @@
 body {
   font-family: 'Roboto', Helvetica Neue, Helvetica, Arial, sans-serif;
   font-weight: normal;
-  font-size: 15px;
+  font-size: 20px;
+  background: #e4eef8;
 }
 
 .flex-container {
@@ -21,7 +22,7 @@ body {
 }
 
 .nametag {
-  font-size: 20px;
+  font-size: 26px;
 }
 
 .nametag__image {
@@ -38,13 +39,9 @@ body {
 }
 
 .nametag__details__name {
-  font-size: 25px;
+  font-size: 45px;
   color: #1c2b32;
   font-weight: bold;
-}
-
-.content {
-
 }
 
 .content__text {
@@ -52,14 +49,13 @@ body {
 }
 
 .content_text--large, #rotating-content {
-  font-size: 20px;
+  font-size: 45px;
   line-height: 1.25;
 }
 
 #rotating-content {
   color: #5a7085;
 }
-
 
 .mobile-button {
   display: inline-block;
@@ -83,9 +79,10 @@ body {
 @media only screen and (min-device-width: 780px) and (min-width: 780px) {
   body {
     font-size: 16px;
+    background:white;
   }
 
-  .mobile {
+  .mobile-button {
     display: none;
   }
 
@@ -116,6 +113,7 @@ body {
   }
 
   .nametag__details__name {
+    text-align: left;
     font-size: 25px;
     color: #1c2b32;
     font-weight: bold;
@@ -123,6 +121,10 @@ body {
 
   .content {
     flex-basis: 65%;
+  }
+
+  .content__text {
+    padding: 10px 0px 10px;
   }
 
   #rotating-content, .content_text--large {
