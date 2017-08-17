@@ -3,12 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <title>Rosemary Shanley</title>
+  <script src="https://use.fontawesome.com/a3b47b84d6.js"></script>
   <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-  <!-- <div>build30</div> -->
   <div class="flex-container">
     <div class="header">
       <div class="nametag">
@@ -16,19 +15,68 @@
         <div class="nametag__details">
           <div class="nametag__details__name">Rosie Shanley</div>
           <div class="nametag__details__title">Front End Web Developer</div>
-          <a href="mailto:shanleyrs@gmail.com" class="mobile-button">GET IN TOUCH</a>
+          <div class="social">
+            <a href="mailto:shanleyrs@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+            <a href="https://www.linkedin.com/in/rosemary-shanley/" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+            <a href="https://angel.co/rosemary-shanley" target="_blank"><i class="fa fa-angellist" aria-hidden="true"></i></a>
+            <a href="https://github.com/rossha" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+          </div>
         </div>
       </div>
     </div>
   </div>
   <div class="flex-container">
-    <div class="content">
-      <div class="content__text">I’m a Front End Web Developer hailing from the Midwest. I am newly based in Denver after spending a year traveling and expanding my skill-sets through online courses. Prior to that, I worked as a Junior Application Developer for Fusion Marketing in Saint Louis. While there, I worked as the lead developer for several websites and built custom applications for special events, including a Car Karaoke app.</div>
-      <div class="content__text">I am passionate about building beautiful, functional web-based products. I love writing in vanilla JavaScript, and am excited by all the wonderful things we can accomplish with ES6+. I am also comfortable using JavaScript frameworks such as React, JQuery, and Angular.</div>
-      <div class="content__text content_text--large">I live for <span id="rotating-content">all things HTML/CSS/Javascript.</span></div>
-      <div class="content__button-container">
-        <a href="mailto:shanleyrs@gmail.com" class="content__button-container__button">GET IN TOUCH</a>
-        <div class="content__button-container__button" id="learn-more">LEARN MORE</a>
+    <div class="intro">
+      <div class="intro__text">I’m a Front End Web Developer hailing from the Midwest. I am newly based in Denver after spending a year traveling and expanding my skill-sets through online courses. Prior to that, I worked as a Junior Application Developer for Fusion Marketing in Saint Louis. While there, I worked as the lead developer for several websites and built custom applications for special events, including a Car Karaoke app.</div>
+      <div class="intro__text">I am passionate about building beautiful, functional web-based products. I love writing in vanilla JavaScript, and am excited by all the wonderful things we can accomplish with ES6+. I am also comfortable using JavaScript frameworks such as React, JQuery, and Angular.</div>
+      <div class="intro__text intro_text--large">I live for <span id="rotating-content">all things HTML/CSS/Javascript.</span></div>
+      <div class="intro__button-container">
+        <a href="mailto:shanleyrs@gmail.com" class="intro__button-container__button">GET IN TOUCH</a>
+        <div class="intro__button-container__button" id="see-my-work">SEE MY WORK</div>
+      </div>
+    </div>
+    <div class="skills-interests">
+      <ul class="skills"></ul>
+      <ul class="skills"></ul>
+      <ul class="skills"></ul>
+      <div class="interests">
+        <div class="interests__title">Technologies I'm Excited About</div>
+        <ul class="interests__list">
+          <li class="interest">GraphQL</li>
+          <li class="interest">Electron</li>
+          <li class="interest">TypeScript</li>
+      </div>
+    </div>
+    <div class="portfolio">
+      <div class="item">
+        <div class="item__text">
+          <a class="item__text__title" target="_blank" href="http://www.gooseisland.com/">Goose Island Beer Company</a>
+          <div class="item__text__desc__title">Lead Developer</div>
+          <div class="item__text__desc">
+            <div>— Built out several new sections, including a searchable <a class="link" href="http://www.gooseisland.com/pairings/" target="_blank">Beer & Food</a> page, a password-protected portal for wholesalers to view the warehouse's calendar and schedule tours, and a <a class="link" href="http://www.gooseisland.com/gritandgrain" target="_blank">video series</a> telling the brand's story.</div>
+            <div>— Created an API using an Amazon Lambda function that enabled users to subscribe to our Mailchimp account without hosting a separate server.</div>
+            <div>— Backwards Compatible through IE8.</div>
+          </div>
+        </div>
+        <div class="item__images">
+          <img class="item__image item__image--iphone" src="assets/gi_iphone.png" alt="Goose Island Website for iPhone">
+          <img class="item__image item__image--ipad" src="assets/gi_ipad.png" alt="Goose Island Website for iPad">
+          <img class="item__image item__image--laptop" src="assets/gi_laptop.png" alt="Goose Island Website for Laptop">
+        </div>
+      </div>
+      <div class="item align-left">
+        <div class="item__images">
+          <img class="item__image item__image--laptop" src="assets/bp_laptop.png" alt="Goose Island Website for Laptop">
+          <img class="item__image item__image--ipad" src="assets/bp_ipad.png" alt="Goose Island Website for iPad">
+          <img class="item__image item__image--iphone" src="assets/bp_iphone.png" alt="Goose Island Website for iPhone">
+        </div>
+        <div class="item__text">
+          <a class="item__text__title" target="_blank" href="https://www.bluepointbrewing.com/">Blue Point Brewing Company</a>
+          <div class="item__text__desc__title">Lead Developer</div>
+          <div class="item__text__desc">
+            <div>— Transferred the website from a JSP-based CMS to a JavaScript based CMS, rebuilding the data models.</div>
+            <div>— Backwards compatible through IE8.</div>
+        </div>
       </div>
     </div>
   </div>

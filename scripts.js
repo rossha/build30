@@ -17,14 +17,58 @@ function rotateText() {
 // rotate text every 2.5 seconds
 setInterval(rotateText, 2500);
 
+const skills = [
+  [ "JavaScript", 5 ],
+  [ "Node.js", 4 ],
+  [ "MySQL", 4 ],
+  [ "AngularJS", 3 ],
+  [ "HTML/CSS", 5 ],
+  [ "Adobe Suite", 4 ],
+  [ "GIT", 4 ],
+  [ "React", 3 ],
+  [ "JQuery", 5 ],
+  [ "UI / Responsive Design", 4 ],
+  [ "Cross-Browser Compatibility", 4 ],
+  [ "Google Analytics", 4 ]
+]
+
+// populate skills
+function populateSkills(arr, el) {
+
+  el.innerHTML = arr.map(function(skill) {
+    let stars = '';
+    let gray_stars = '';
+
+    for(var i=0; i < skill[1]; i++) {
+      stars += '&#9733;';
+    }
+
+    if(skill[1] < 5) {
+      for(var i=0; i < ( 5 - skill[1]); i++) {
+        gray_stars += '&#9733;';
+      }
+    }
+
+    return `
+      <li class="skill">
+        <span class="skill__name">${skill[0]}</span>
+        <span class="skill__stars">${stars}</span><span class="gray">${gray_stars}</span>
+      </li>
+    `;
+  }).join('');
+}
+
+const [el, el2, el3] = Array.from(document.querySelectorAll('.skills'));
+populateSkills(skills.slice(0,4), el);
+populateSkills(skills.slice(4,8), el2);
+populateSkills(skills.slice(8), el3);
+
 // display additional content
-function showMore() {
-  const header = document.querySelector('.header');
-  const content = document.querySelector('.content');
-  header.classList.add('expanded');
-  content.classList.add('expanded');
+const displayPortfolio = function(e) {
+  const body = document.querySelector('body')
+  body.classList.add('expanded');
 };
 
 // on clicking 'learn more', expand and display content
-const learnMore = document.getElementById('learn-more');
-learnMore.addEventListener('click', showMore);
+const showWork = document.querySelector('#see-my-work');
+showWork.addEventListener('click', displayPortfolio, true);
