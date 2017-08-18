@@ -21,6 +21,10 @@ body {
   color: #5a7085;
 }
 
+.fa:hover, .fa:focus, .fa:active {
+  color: #6e86ce;
+}
+
 .flex-container {
   display: flex;
   flex-wrap: wrap;
