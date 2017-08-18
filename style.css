@@ -32,7 +32,7 @@ body {
   display: block;
   width: 100%;
   color: #5a7085;
-  padding: 40px 2% 20px;
+  padding: 40px 2% 10px;
   border-bottom: #1c2b32 2px solid;
 }
 
@@ -76,6 +76,11 @@ body {
   color: #5a7085;
 }
 
+.mobile-disclaimer {
+  font-size: 16px;
+  color: #1c2b32;
+}
+
 .mobile-button {
   display: inline-block;
   width:230px;
@@ -83,7 +88,7 @@ body {
   border: 3px solid #5a7085;
   border-radius: 30px;
   padding: 8px 0px 10px 0px;
-  margin: 23px 20px 5px;
+  margin: 23px 20px 15px;
   color: white;
   font-weight: bold;
   font-size: 22px;
@@ -275,7 +280,7 @@ a.link {
 
   /* Expanded Content Handlers End */
 
-  .mobile-button {
+  .mobile-button, .mobile-disclaimer {
     display: none;
   }
 
