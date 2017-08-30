@@ -21,13 +21,13 @@ const skills = [
   [ "JavaScript", 5 ],
   [ "Node.js", 4 ],
   [ "MySQL", 4 ],
-  [ "AngularJS", 3 ],
+  [ "React", 4 ],
   [ "HTML/CSS", 5 ],
   [ "Adobe Suite", 4 ],
   [ "GIT", 4 ],
-  [ "React", 3 ],
+  [ "AngularJS", 3 ],
   [ "JQuery", 5 ],
-  [ "UI / Responsive Design", 4 ],
+  [ "UI / Responsive Design", 5 ],
   [ "Cross-Browser Compatibility", 4 ],
   [ "Google Analytics", 4 ]
 ]
