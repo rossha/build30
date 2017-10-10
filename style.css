@@ -418,7 +418,11 @@ a.link {
   .item__text {
     margin-right: -42px;
   }
-  
+
+  .item__text--ipad-iphone {
+    margin-right: 10px;
+  }
+
   .align-left .item__text {
     margin-right: 10px;
     margin-left: -42px;
