@@ -163,6 +163,10 @@ body {
   margin-left: -15px;
 }
 
+.item__text--ipad-iphone {
+  margin-right: 10px;
+}
+
 .item__text__title {
   width: 100%;
   font-size: 22px;
@@ -195,6 +199,14 @@ a.link {
   height: 150px;
 }
 
+.item__images--ipad-iphone {
+  display: inline-flex;
+  height: 150px;
+  padding-right: 40px;
+  top: 0px;
+  left: 0px;
+}
+
 .align-left .item__images {
   left: 0;
 }
@@ -224,6 +236,18 @@ a.link {
 
 .align-left .item__image--ipad {
   left: -25px;
+}
+
+.item__image--ipad-iphone__ipad {
+  height: 150px;
+  top: 0px;
+  left: 0px;
+}
+
+.item__image--ipad-iphone__iphone {
+  height: 125px;
+  bottom: -24px;
+  left: 3px;
 }
 
 .item__image--laptop {
@@ -394,7 +418,7 @@ a.link {
   .item__text {
     margin-right: -42px;
   }
-
+  
   .align-left .item__text {
     margin-right: 10px;
     margin-left: -42px;
@@ -438,6 +462,20 @@ a.link {
     height: 225px;
     z-index: 10;
     right: 0px;
+  }
+
+  .item__image--ipad-iphone__ipad {
+    height: 225px;
+  }
+
+  .item__image--ipad-iphone__iphone {
+    height: 160px;
+    bottom: -39px;
+    left: 3px;
+  }
+
+  .item__images--ipad-iphone {
+    height: 225px;
   }
 }
 

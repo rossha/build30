@@ -25,7 +25,7 @@ const skills = [
   [ "HTML/CSS", 5 ],
   [ "Adobe Suite", 4 ],
   [ "GIT", 4 ],
-  [ "AngularJS", 3 ],
+  [ "Angular", 3 ],
   [ "JQuery", 5 ],
   [ "UI / Responsive Design", 5 ],
   [ "Cross-Browser Compatibility", 4 ],
