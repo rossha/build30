@@ -312,6 +312,11 @@ a.link {
 
   /* Expanded Content Handlers End */
 
+  .item__video--video {
+    height: 150px;
+    transition: all 2s;
+  }
+
   .mobile-button, .mobile-disclaimer {
     display: none;
   }
@@ -438,6 +443,10 @@ a.link {
 
   .item__text__desc__title {
     font-size: 20px;
+  }
+
+  .item__video--video {
+    height: 270px;
   }
 
   .item__images {
