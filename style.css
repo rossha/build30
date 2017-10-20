@@ -199,6 +199,10 @@ a.link {
   height: 150px;
 }
 
+.item__video {
+  margin-right: 25px;
+}
+
 .item__images--ipad-iphone {
   display: inline-flex;
   height: 150px;
